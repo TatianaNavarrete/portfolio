@@ -1,247 +1,84 @@
-export const siteConfig = {
-  name: "Lisseth Tatiana Navarrete Vaca",
-
-  title:
-    "Abogada | Mediadora | Especialista en Derechos Humanos",
-
-  description:
-    "Portafolio profesional de Lisseth Tatiana Navarrete Vaca",
-
-  accentColor: "#8B6B4F",
-
-  profileImage: "/portfolio/profile.jpeg",
-
-  social: {
-    email: "tatiananavarretevaca@hotmail.com",
-
-    linkedin: "https://linkedin.com",
-
-    orcid: "https://orcid.org/0009-0008-4595-6344",
-  },
-
-  aboutMe:
-    "Abogada con formación en derechos humanos, mediación y sistemas de protección. Experiencia en asesoría jurídica, defensa técnica y resolución de conflictos en materias de familia, niñez, adolescencia, derecho laboral y civil. Especializada en inclusión social, atención a población vulnerable y protección integral de derechos. Orientada al trabajo interdisciplinario, la conciliación y el acompañamiento jurídico con enfoque humano y social.",
-
-  skills: [
-    "Derechos Humanos",
-    "Mediación",
-    "Resolución de Conflictos",
-    "Violencia de Género",
-    "Familia, Niñez y Adolescencia",
-    "Derecho Laboral",
-    "Derecho Civil",
-    "Inclusión Social",
-    "Consultoría Jurídica",
-    "Protección Integral",
-    "Atención a Población Vulnerable",
-    "Migración",
-  ],
-
-  projects: [
-    {
-      name: "Asesoría Jurídica Integral",
-
-      description:
-        "Asesoría y acompañamiento jurídico en materias civiles, familiares, laborales, tránsito y procedimientos notariales.",
-
-      link: "https://tatiananavarrete.github.io/portfolio/",
-
-      skills: [
-        "Derecho Civil",
-        "Familia",
-        "Mediación",
-        "Defensa Técnica",
-      ],
-    },
-
-    {
-      name: "Mediación y Resolución de Conflictos",
-
-      description:
-        "Participación en procesos de mediación familiar, niñez, adolescencia y resolución alternativa de conflictos.",
-
-      link: "https://tatiananavarrete.github.io/portfolio/",
-
-      skills: [
-        "Mediación",
-        "Negociación",
-        "Resolución de Conflictos",
-      ],
-    },
-
-    {
-      name: "Protección de Derechos Humanos",
-
-      description:
-        "Acompañamiento jurídico con enfoque humano y social en protección de derechos, inclusión social y atención a población vulnerable.",
-
-      link: "https://tatiananavarrete.github.io/portfolio/",
-
-      skills: [
-        "Derechos Humanos",
-        "Inclusión Social",
-        "Protección Integral",
-      ],
-    },
-  ],
-
-  experience: [
-    {
-      company: "Consorcio Jurídico Nova Lex",
-
-      title: "Abogada",
-
-      dateRange: "2024 - 2026",
-
-      bullets: [
-        "Asesoría jurídica en materias civiles, familiares y tránsito.",
-        "Mediación y resolución de conflictos.",
-        "Defensa técnica en procesos judiciales de familia, niñez, adolescencia, violencia de género, tránsito y notariales.",
-        "Redacción de demandas, denuncias y escritos legales.",
-      ],
-    },
-
-    {
-      company: "Estudio Jurídico Luna Rom",
-
-      title: "Abogada",
-
-      dateRange: "2023 - 2024",
-
-      bullets: [
-        "Mediación y resolución de conflictos en familia, niñez y adolescencia.",
-        "Defensa técnica en materias laborales, civiles y familiares.",
-        "Elaboración de demandas y acompañamiento jurídico.",
-      ],
-    },
-
-    {
-      company: "Lexei Abogadas",
-
-      title: "Abogada Junior",
-
-      dateRange: "2022 - 2023",
-
-      bullets: [
-        "Elaboración de contratos y documentos jurídicos.",
-        "Asistencia en procesos civiles, laborales y familiares.",
-        "Atención y asesoría legal a usuarios.",
-      ],
-    },
-
-    {
-      company: "Lexei Abogadas",
-
-      title: "Asistente Legal",
-
-      dateRange: "2020 - 2022",
-
-      bullets: [
-        "Seguimiento y gestión documental de procesos judiciales.",
-        "Apoyo administrativo y jurídico.",
-        "Atención al cliente y coordinación documental.",
-      ],
-    },
-
-    {
-      company:
-        "Municipio del Distrito Metropolitano de Quito",
-
-      title: "Asistente Área Catastral",
-
-      dateRange: "2013",
-
-      bullets: [
-        "Revisión documental y control catastral.",
-        "Verificación de antecedentes y emisión de documentación.",
-      ],
-    },
-  ],
-
-  education: [
-    {
-      school:
-        "Universidad Internacional de La Rioja",
-
-      degree:
-        "Magíster en Derechos Humanos y Sistemas de Protección",
-
-      dateRange: "2023 - 2024",
-
-      achievements: [
-        "Especialización en protección integral de derechos.",
-        "Formación avanzada en derechos humanos e inclusión social.",
-      ],
-    },
-
-    {
-      school:
-        "Universidad Bolivariana del Ecuador",
-
-      degree: "Magíster en Derecho Procesal",
-
-      dateRange: "2024 - 2025",
-
-      achievements: [
-        "Formación avanzada en litigación y procedimientos judiciales.",
-        "Especialización en derecho procesal.",
-      ],
-    },
-
-    {
-      school:
-        "Universidad Central del Ecuador",
-
-      degree:
-        "Abogada de los Tribunales y Juzgados de la República",
-
-      dateRange: "2021 - 2022",
-
-      achievements: [
-        "Formación integral en derecho civil, laboral y administrativo.",
-      ],
-    },
-
-    {
-      school:
-        "Universidad Internacional de La Rioja",
-
-      degree:
-        "Especialización en Derechos Humanos",
-
-      dateRange: "2022 - 2023",
-
-      achievements: [
-        "Formación especializada en sistemas de protección y derechos fundamentales.",
-      ],
-    },
-
-    {
-      school:
-        "Universidad Luis Vargas Torres",
-
-      degree:
-        "Formación en Mediación y Resolución de Conflictos",
-
-      dateRange: "2023 - 2024",
-
-      achievements: [
-        "Capacitación en mediación familiar y resolución alternativa de conflictos.",
-      ],
-    },
-
-    {
-      school:
-        "Universidad de Milagro",
-
-      degree:
-        "Maestría en Docencia e Investigación en Educación Superior (En curso)",
-
-      dateRange: "2025 - Presente",
-
-      achievements: [
-        "Formación en docencia, investigación y educación superior.",
-      ],
-    },
-  ],
-};
+---
+import { siteConfig } from "../config";
+const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+---
+
+{
+  hasEducation && (
+    <section id="education" class="p-8 sm:p-12 md:p-16 lg:p-24">
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+
+          <div class="lg:col-span-4">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-6xl font-bold text-gray-900">
+              Educación
+            </h2>
+
+            <div
+              class="w-[75px] h-[5px] mt-2 rounded-full"
+              style={`background-color: ${siteConfig.accentColor}`}
+            />
+          </div>
+
+          <div class="lg:col-span-8">
+            <div class="space-y-8">
+
+              {siteConfig.education.map((edu) => (
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
+
+                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
+
+                    <div>
+
+                      {
+                        edu.complementary && (
+                          <span class="inline-block mb-2 px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-full bg-gray-200 text-gray-700">
+                            Educación Complementaria
+                          </span>
+                        )
+                      }
+
+                      <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
+                        {edu.degree}
+                      </h3>
+
+                      <p
+                        class="text-base sm:text-lg"
+                        style={`color: ${siteConfig.accentColor}`}
+                      >
+                        {edu.school}
+                      </p>
+
+                    </div>
+
+                    <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
+                      {edu.dateRange}
+                    </span>
+
+                  </div>
+
+                  <ul class="space-y-2">
+                    {edu.achievements.map((achievement) => (
+                      <li class="flex items-start">
+
+                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+
+                        <span class="text-sm sm:text-base text-gray-600">
+                          {achievement}
+                        </span>
+
+                      </li>
+                    ))}
+                  </ul>
+
+                </div>
+              ))}
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
