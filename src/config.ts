@@ -6,11 +6,10 @@ export const siteConfig = {
   profileImage: "/portfolio/profile.jpeg",
 
   social: {
-    email: "tatiananavarretevaca@hotmail.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://x.com",
-    github: "https://github.com/TatianaNavarrete",
-  },
+  email: "tatiananavarretevaca@hotmail.com",
+  linkedin: "https://linkedin.com",
+  orcid: "https://orcid.org/0009-0008-4595-6344",
+},
 
   aboutMe:
     "Abogada de los Tribunales y Juzgados de la República del Ecuador con experiencia en derecho civil, familia, tránsito, mediación y procedimientos administrativos. Magíster en Derecho Procesal, con trayectoria en asesoría jurídica, redacción de demandas, litigación y defensa técnica en procesos administrativos y judiciales.",
