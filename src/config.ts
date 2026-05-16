@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Lisseth Tatiana Navarrete Vaca",
   title: "Abogada | Magíster en Derecho Procesal",
   description: "Portafolio profesional de Lisseth Tatiana Navarrete Vaca",
-  accentColor: "#14532d",
+  accentColor: "##B08968",
   profileImage: "/portfolio/profile.jpeg",
 
   social: {
