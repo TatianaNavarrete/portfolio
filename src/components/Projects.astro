@@ -1,104 +1,148 @@
 ---
-import { siteConfig } from "../config";
-const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+const projects = [
+  {
+    number: "01",
+
+    title:
+      "Judicialización de la Violencia de Género: Implementación de la perspectiva de género como categoría analítica en los tribunales",
+
+    authors:
+      "Viviana Patricia Duque Claudio, Lisseth Tatiana Navarrete Vaca y Holger Geovannny García Segarra",
+
+    journal:
+      "Revista Científica de Educación Superior y Gobernanza Interuniversitaria Aula 24, Vol. 6(9), 82–96, 2024",
+
+    description:
+      "Este artículo analiza la incorporación de la perspectiva de género dentro de los procesos judiciales y su aplicación como categoría analítica en los tribunales. El estudio aborda los desafíos jurídicos y sociales relacionados con la violencia de género, destacando la necesidad de fortalecer mecanismos de protección y garantizar una justicia con enfoque de derechos humanos.",
+
+    link:
+      "https://dspace.ube.edu.ec/items/51b6c1c8-1a45-4e6c-8bde-6671570e3ab3/full",
+
+    tags: [
+      "Derechos Humanos",
+      "Violencia de Género",
+      "Perspectiva de Género",
+      "Investigación Jurídica",
+    ],
+  },
+
+  {
+    number: "02",
+
+    title:
+      "Control and Communication in Dialogue: Controllability, Observability, and Bang–Bang Dynamics",
+
+    authors:
+      "Lisseth Navarrete Vaca y Cristhian Núñez Ramos",
+
+    journal:
+      "Selecciones Matemáticas, Vol. 12(02), 365–374, 2025",
+
+    description:
+      "Este artículo desarrolla un enfoque interdisciplinario sobre la comunicación humana y las dinámicas conversacionales utilizando herramientas provenientes de la teoría de control y los sistemas dinámicos. La investigación analiza cómo los procesos de diálogo pueden interpretarse como sistemas de interacción donde intervienen mecanismos de control, respuesta y adaptación entre los participantes. El estudio aborda conceptos como la controlabilidad y la observabilidad dentro de una conversación, entendiendo cómo las personas influyen en el desarrollo del diálogo, regulan la interacción y modifican sus respuestas en función de la información recibida. Asimismo, se exploran las denominadas dinámicas bang–bang, asociadas a cambios abruptos o decisiones extremas dentro de los procesos comunicativos. La investigación propone una visión innovadora del diálogo humano desde una perspectiva matemática y analítica, contribuyendo al estudio de la comunicación, el comportamiento social y los procesos de interacción compleja.",
+
+    link:
+      "https://www.researchgate.net/publication/399116650_Control_and_Communication_in_Dialogue_Controllability_Observability_and_Bang-Bang_Dynamics",
+
+    tags: [
+      "Teoría de Control",
+      "Comunicación",
+      "Sistemas Dinámicos",
+      "Investigación Interdisciplinaria",
+    ],
+  },
+];
 ---
 
-{
-  hasProjects && (
-    <section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
-      <div>
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-          <div class="lg:col-span-4">
-            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 text-center">
-              Proyectos de Investigación
-            </h2>
-            <div
-              class="w-[75px] h-[5px] mt-2 rounded-full"
-              style={`background-color: ${siteConfig.accentColor}`}
-            />
-          </div>
+<section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
+  <div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+      
+      <div class="lg:col-span-4">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 text-center">
+          Publicaciones e Investigación
+        </h2>
 
-          <div class="lg:col-span-8">
-            <div class="space-y-8">
-              {siteConfig.projects.map((project, index) => {
-                const Component = project.link ? "a" : "div";
-                const linkProps = project.link
-                  ? {
-                      href: project.link,
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                    }
-                  : {};
-
-                return (
-                  <div class="group relative">
-                    <Component
-                      {...linkProps}
-                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
-                        project.link
-                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
-                          : ""
-                      }`}
-                    >
-                      {project.link && (
-                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-gray-900 rounded-full text-white transition-all duration-300 group-hover:bg-gray-700">
-                          <svg
-                            class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                            />
-                          </svg>
-                        </div>
-                      )}
-
-                      <div class="space-y-4">
-                        <div>
-                          <span
-                            class="text-sm font-mono"
-                            style={{ color: siteConfig.accentColor }}
-                          >
-                            0{index + 1}
-                          </span>
-                          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mt-1">
-                            {project.name}
-                          </h3>
-                        </div>
-
-                        <p
-                          class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
-                        >
-                          {project.description}
-                        </p>
-
-                        {project.skills && project.skills.length > 0 && (
-                          <div class="flex flex-wrap gap-1.5 sm:gap-2 pt-2">
-                            {project.skills.map((skill) => (
-                              <span
-                                class={`px-2.5 sm:px-3 py-1 sm:py-1.5 bg-gray-900 text-white rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
-                                  project.link ? "group-hover:bg-gray-800" : ""
-                                }`}
-                              >
-                                {skill}
-                              </span>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    </Component>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+        <div
+          class="w-[75px] h-[5px] mt-2 rounded-full mx-auto"
+          style="background-color: #8B6B4F"
+        >
         </div>
       </div>
-    </section>
-  )
-}
+
+      <div class="lg:col-span-8">
+        <div class="space-y-8">
+
+          {projects.map((project) => (
+            <div class="group relative">
+
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block relative p-6 md:p-8 bg-gray-50 rounded-2xl border border-gray-200 transition-all duration-300 hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
+              >
+
+                <div class="absolute top-6 right-6 w-12 h-12 flex items-center justify-center bg-gray-900 rounded-full text-white transition-all duration-300 group-hover:bg-gray-700">
+                  <svg
+                    class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 17L17 7M17 7H7M17 7V17"
+                    />
+                  </svg>
+                </div>
+
+                <div class="space-y-5">
+
+                  <div>
+                    <span
+                      class="text-sm font-mono"
+                      style="color: #8B6B4F"
+                    >
+                      {project.number}
+                    </span>
+
+                    <h3 class="text-2xl font-bold text-gray-900 mt-2 pr-16">
+                      {project.title}
+                    </h3>
+                  </div>
+
+                  <div class="space-y-2">
+                    <p class="text-sm text-gray-500">
+                      <strong>Autores:</strong> {project.authors}
+                    </p>
+
+                    <p class="text-sm text-gray-500 italic">
+                      {project.journal}
+                    </p>
+                  </div>
+
+                  <p class="text-lg text-gray-600 leading-relaxed text-justify">
+                    {project.description}
+                  </p>
+
+                  <div class="flex flex-wrap gap-2 pt-2">
+                    {project.tags.map((tag) => (
+                      <span class="px-3 py-1.5 bg-gray-900 text-white rounded-lg text-sm font-medium transition-all duration-300 group-hover:bg-gray-800">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                </div>
+              </a>
+            </div>
+          ))}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
