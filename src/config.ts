@@ -1,65 +1,86 @@
 export const siteConfig = {
   name: "Lisseth Tatiana Navarrete Vaca",
-  title: "Abogada | Magíster en Derecho Procesal",
-  description: "Portafolio profesional de Lisseth Tatiana Navarrete Vaca",
+
+  title:
+    "Abogada | Mediadora | Especialista en Derechos Humanos",
+
+  description:
+    "Portafolio profesional de Lisseth Tatiana Navarrete Vaca",
+
   accentColor: "#8B6B4F",
+
   profileImage: "/portfolio/profile.jpeg",
 
   social: {
-  email: "tatiananavarretevaca@hotmail.com",
-  linkedin: "https://linkedin.com",
-  orcid: "https://orcid.org/0009-0008-4595-6344",
-},
+    email: "tatiananavarretevaca@hotmail.com",
+
+    linkedin: "https://linkedin.com",
+
+    orcid: "https://orcid.org/0009-0008-4595-6344",
+  },
 
   aboutMe:
-    "Abogada de los Tribunales y Juzgados de la República del Ecuador con experiencia en derecho civil, familia, tránsito, mediación y procedimientos administrativos. Magíster en Derecho Procesal, con trayectoria en asesoría jurídica, redacción de demandas, litigación y defensa técnica en procesos administrativos y judiciales.",
+    "Abogada con formación en derechos humanos, mediación y sistemas de protección. Experiencia en asesoría jurídica, defensa técnica y resolución de conflictos en materias de familia, niñez, adolescencia, derecho laboral y civil. Especializada en inclusión social, atención a población vulnerable y protección integral de derechos. Orientada al trabajo interdisciplinario, la conciliación y el acompañamiento jurídico con enfoque humano y social.",
 
   skills: [
-    "Derecho Civil",
-    "Derecho de Familia",
+    "Derechos Humanos",
     "Mediación",
-    "Procedimientos Administrativos",
-    "Redacción Jurídica",
-    "Litigación",
+    "Resolución de Conflictos",
+    "Violencia de Género",
+    "Familia, Niñez y Adolescencia",
     "Derecho Laboral",
-    "Derecho Procesal",
+    "Derecho Civil",
+    "Inclusión Social",
+    "Consultoría Jurídica",
+    "Protección Integral",
+    "Atención a Población Vulnerable",
+    "Migración",
   ],
 
   projects: [
     {
       name: "Asesoría Jurídica Integral",
+
       description:
-        "Asesoría y patrocinio legal en procesos civiles, familiares, tránsito, mediaciones y trámites notariales.",
+        "Asesoría y acompañamiento jurídico en materias civiles, familiares, laborales, tránsito y procedimientos notariales.",
+
       link: "https://tatiananavarrete.github.io/portfolio/",
+
       skills: [
         "Derecho Civil",
         "Familia",
         "Mediación",
-        "Litigación",
-      ],
-    },
-
-    {
-      name: "Defensa Técnica Administrativa",
-      description:
-        "Defensa técnica de sumarios administrativos para servidores públicos y asesoría en procesos administrativos.",
-      link: "https://tatiananavarrete.github.io/portfolio/",
-      skills: [
-        "Derecho Administrativo",
         "Defensa Técnica",
-        "Procedimientos",
       ],
     },
 
     {
       name: "Mediación y Resolución de Conflictos",
+
       description:
-        "Participación en mediaciones laborales, familiares y civiles orientadas a la resolución efectiva de conflictos.",
+        "Participación en procesos de mediación familiar, niñez, adolescencia y resolución alternativa de conflictos.",
+
       link: "https://tatiananavarrete.github.io/portfolio/",
+
       skills: [
         "Mediación",
         "Negociación",
         "Resolución de Conflictos",
+      ],
+    },
+
+    {
+      name: "Protección de Derechos Humanos",
+
+      description:
+        "Acompañamiento jurídico con enfoque humano y social en protección de derechos, inclusión social y atención a población vulnerable.",
+
+      link: "https://tatiananavarrete.github.io/portfolio/",
+
+      skills: [
+        "Derechos Humanos",
+        "Inclusión Social",
+        "Protección Integral",
       ],
     },
   ],
@@ -67,79 +88,159 @@ export const siteConfig = {
   experience: [
     {
       company: "Consorcio Jurídico Nova Lex",
+
       title: "Abogada",
-      dateRange: "Jun 2024 - May 2025",
+
+      dateRange: "2024 - 2026",
+
       bullets: [
-        "Asesoría legal y jurídica en asuntos civiles, familiares y de tránsito.",
-        "Redacción de denuncias, demandas y documentos notariales.",
-        "Participación en mediaciones y patrocinio legal.",
+        "Asesoría jurídica en materias civiles, familiares y tránsito.",
+        "Mediación y resolución de conflictos.",
+        "Defensa técnica en procesos judiciales de familia, niñez, adolescencia, violencia de género, tránsito y notariales.",
+        "Redacción de demandas, denuncias y escritos legales.",
       ],
     },
 
     {
       company: "Estudio Jurídico Luna Rom",
+
       title: "Abogada",
-      dateRange: "Sep 2023 - May 2024",
+
+      dateRange: "2023 - 2024",
+
       bullets: [
-        "Defensa técnica en sumarios administrativos de servidores públicos.",
-        "Asesoría en procesos laborales, civiles y familiares.",
-        "Elaboración de demandas, denuncias y escritos jurídicos.",
+        "Mediación y resolución de conflictos en familia, niñez y adolescencia.",
+        "Defensa técnica en materias laborales, civiles y familiares.",
+        "Elaboración de demandas y acompañamiento jurídico.",
       ],
     },
 
     {
       company: "Lexei Abogadas",
+
       title: "Abogada Junior",
-      dateRange: "Ago 2022 - Jul 2023",
+
+      dateRange: "2022 - 2023",
+
       bullets: [
-        "Redacción de contratos civiles y laborales.",
-        "Apoyo en procesos administrativos y judiciales.",
-        "Elaboración de escritos y documentación legal.",
+        "Elaboración de contratos y documentos jurídicos.",
+        "Asistencia en procesos civiles, laborales y familiares.",
+        "Atención y asesoría legal a usuarios.",
       ],
     },
 
     {
-      company: "Lexei Abogadas S.A.S",
+      company: "Lexei Abogadas",
+
       title: "Asistente Legal",
-      dateRange: "Mar 2020 - May 2022",
+
+      dateRange: "2020 - 2022",
+
       bullets: [
-        "Apoyo en procesos civiles y de familia.",
-        "Asistencia en defensa administrativa.",
-        "Gestión documental y seguimiento de procesos.",
+        "Seguimiento y gestión documental de procesos judiciales.",
+        "Apoyo administrativo y jurídico.",
+        "Atención al cliente y coordinación documental.",
       ],
     },
 
     {
-      company: "Estudio Jurídico RGMLAW",
-      title: "Asistente",
-      dateRange: "Ene 2019 - Feb 2020",
+      company:
+        "Municipio del Distrito Metropolitano de Quito",
+
+      title: "Asistente Área Catastral",
+
+      dateRange: "2013",
+
       bullets: [
-        "Atención al cliente.",
-        "Archivo y organización documental.",
-        "Elaboración de escritos legales.",
+        "Revisión documental y control catastral.",
+        "Verificación de antecedentes y emisión de documentación.",
       ],
     },
   ],
 
   education: [
     {
-      school: "Universidad Bolivariana del Ecuador",
-      degree: "Magíster en Derecho Procesal",
-      dateRange: "2024 - Actualidad",
+      school:
+        "Universidad Internacional de La Rioja",
+
+      degree:
+        "Magíster en Derechos Humanos y Sistemas de Protección",
+
+      dateRange: "2023 - 2024",
+
       achievements: [
-        "Especialización en derecho procesal.",
-        "Formación avanzada en litigación y procedimientos judiciales.",
+        "Especialización en protección integral de derechos.",
+        "Formación avanzada en derechos humanos e inclusión social.",
       ],
     },
 
     {
-      school: "Universidad Central del Ecuador",
+      school:
+        "Universidad Bolivariana del Ecuador",
+
+      degree: "Magíster en Derecho Procesal",
+
+      dateRange: "2024 - 2025",
+
+      achievements: [
+        "Formación avanzada en litigación y procedimientos judiciales.",
+        "Especialización en derecho procesal.",
+      ],
+    },
+
+    {
+      school:
+        "Universidad Central del Ecuador",
+
       degree:
         "Abogada de los Tribunales y Juzgados de la República",
-      dateRange: "2017 - 2022",
+
+      dateRange: "2021 - 2022",
+
       achievements: [
-        "Formación integral en derecho civil, administrativo y laboral.",
-        "Participación en seminarios y capacitaciones jurídicas.",
+        "Formación integral en derecho civil, laboral y administrativo.",
+      ],
+    },
+
+    {
+      school:
+        "Universidad Internacional de La Rioja",
+
+      degree:
+        "Especialización en Derechos Humanos",
+
+      dateRange: "2022 - 2023",
+
+      achievements: [
+        "Formación especializada en sistemas de protección y derechos fundamentales.",
+      ],
+    },
+
+    {
+      school:
+        "Universidad Luis Vargas Torres",
+
+      degree:
+        "Formación en Mediación y Resolución de Conflictos",
+
+      dateRange: "2023 - 2024",
+
+      achievements: [
+        "Capacitación en mediación familiar y resolución alternativa de conflictos.",
+      ],
+    },
+
+    {
+      school:
+        "Universidad de Milagro",
+
+      degree:
+        "Maestría en Docencia e Investigación en Educación Superior (En curso)",
+
+      dateRange: "2025 - Presente",
+
+      achievements: [
+        "Formación en docencia, investigación y educación superior.",
       ],
     },
   ],
