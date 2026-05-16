@@ -1,91 +1,145 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Lisseth Tatiana Navarrete Vaca",
+  title: "Abogada | Magíster en Derecho Procesal",
+  description: "Portafolio profesional de Lisseth Tatiana Navarrete Vaca",
+  accentColor: "#14532d",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "tatiananavarretevaca@hotmail.com",
+    linkedin: "https://linkedin.com",
+    twitter: "https://x.com",
+    github: "https://github.com/TatianaNavarrete",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Abogada de los Tribunales y Juzgados de la República del Ecuador con experiencia en derecho civil, familia, tránsito, mediación y procedimientos administrativos. Magíster en Derecho Procesal, con trayectoria en asesoría jurídica, redacción de demandas, litigación y defensa técnica en procesos administrativos y judiciales.",
+
+  skills: [
+    "Derecho Civil",
+    "Derecho de Familia",
+    "Mediación",
+    "Procedimientos Administrativos",
+    "Redacción Jurídica",
+    "Litigación",
+    "Derecho Laboral",
+    "Derecho Procesal",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Asesoría Jurídica Integral",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Asesoría y patrocinio legal en procesos civiles, familiares, tránsito, mediaciones y trámites notariales.",
+      link: "https://tatiananavarrete.github.io/portfolio/",
+      skills: [
+        "Derecho Civil",
+        "Familia",
+        "Mediación",
+        "Litigación",
+      ],
     },
+
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Defensa Técnica Administrativa",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Defensa técnica de sumarios administrativos para servidores públicos y asesoría en procesos administrativos.",
+      link: "https://tatiananavarrete.github.io/portfolio/",
+      skills: [
+        "Derecho Administrativo",
+        "Defensa Técnica",
+        "Procedimientos",
+      ],
     },
+
     {
-      name: "ExtensionKit",
+      name: "Mediación y Resolución de Conflictos",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Participación en mediaciones laborales, familiares y civiles orientadas a la resolución efectiva de conflictos.",
+      link: "https://tatiananavarrete.github.io/portfolio/",
+      skills: [
+        "Mediación",
+        "Negociación",
+        "Resolución de Conflictos",
+      ],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Consorcio Jurídico Nova Lex",
+      title: "Abogada",
+      dateRange: "Jun 2024 - May 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Asesoría legal y jurídica en asuntos civiles, familiares y de tránsito.",
+        "Redacción de denuncias, demandas y documentos notariales.",
+        "Participación en mediaciones y patrocinio legal.",
       ],
     },
+
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Estudio Jurídico Luna Rom",
+      title: "Abogada",
+      dateRange: "Sep 2023 - May 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Defensa técnica en sumarios administrativos de servidores públicos.",
+        "Asesoría en procesos laborales, civiles y familiares.",
+        "Elaboración de demandas, denuncias y escritos jurídicos.",
       ],
     },
+
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Lexei Abogadas",
+      title: "Abogada Junior",
+      dateRange: "Ago 2022 - Jul 2023",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Redacción de contratos civiles y laborales.",
+        "Apoyo en procesos administrativos y judiciales.",
+        "Elaboración de escritos y documentación legal.",
+      ],
+    },
+
+    {
+      company: "Lexei Abogadas S.A.S",
+      title: "Asistente Legal",
+      dateRange: "Mar 2020 - May 2022",
+      bullets: [
+        "Apoyo en procesos civiles y de familia.",
+        "Asistencia en defensa administrativa.",
+        "Gestión documental y seguimiento de procesos.",
+      ],
+    },
+
+    {
+      company: "Estudio Jurídico RGMLAW",
+      title: "Asistente",
+      dateRange: "Ene 2019 - Feb 2020",
+      bullets: [
+        "Atención al cliente.",
+        "Archivo y organización documental.",
+        "Elaboración de escritos legales.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Universidad Bolivariana del Ecuador",
+      degree: "Magíster en Derecho Procesal",
+      dateRange: "2024 - Actualidad",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Especialización en derecho procesal.",
+        "Formación avanzada en litigación y procedimientos judiciales.",
       ],
     },
+
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Universidad Central del Ecuador",
+      degree:
+        "Abogada de los Tribunales y Juzgados de la República",
+      dateRange: "2017 - 2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Formación integral en derecho civil, administrativo y laboral.",
+        "Participación en seminarios y capacitaciones jurídicas.",
       ],
     },
   ],
