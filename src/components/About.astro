@@ -9,8 +9,9 @@ import { siteConfig } from "../config";
         <h2
           class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900"
         >
-          About Me
+          Sobre mí
         </h2>
+
         <div
           class="w-[75px] h-[5px] mt-2 rounded-full"
           style={`background-color: ${siteConfig.accentColor}`}
@@ -24,6 +25,10 @@ import { siteConfig } from "../config";
         </p>
 
         <div class="pt-4">
+          <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            Áreas de práctica
+          </h3>
+
           <div class="flex flex-wrap gap-3">
             {
               siteConfig.skills.map((skill) => (
