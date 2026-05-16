@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Abogada | Magíster en Derecho Procesal",
   description: "Portafolio profesional de Lisseth Tatiana Navarrete Vaca",
   accentColor: "#14532d",
-  profileImage: "/portfolio/profile.jpg",
+  profileImage: "/portfolio/profile.jpeg",
 
   social: {
     email: "tatiananavarretevaca@hotmail.com",
