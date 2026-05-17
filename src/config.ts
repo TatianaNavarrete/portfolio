@@ -118,6 +118,14 @@ export const siteConfig = {
         "Especialización en protección integral de derechos.",
         "Formación avanzada en derechos humanos e inclusión social.",
       ],
+      thesisTitle:
+        "La violencia de género en el ámbito educativo ecuatoriano: principales normativas y políticas para combatirla",
+      thesisLabel: "Trabajo fin de estudio",
+      thesisAuthors:
+        "Jorge Roberto Arias Verdezoto y Lisseth Tatiana Navarrete Vaca",
+      thesisDirector: "Cristopher Corvalán Rivera",
+      thesisDate: "28 de septiembre de 2023",
+      thesisLink: "/portfolio/Tesis_Rioja_TN.pdf",
     },
     {
       school: "Universidad Bolivariana del Ecuador",
@@ -135,6 +143,11 @@ export const siteConfig = {
       achievements: [
         "Formación integral en derecho civil, laboral y administrativo.",
       ],
+      thesisTitle:
+        "El derecho humano al agua de los habitantes de la parroquia Pomasqui del cantón Quito, provincia de Pichincha, en el marco de la Resolución 64/292 de las Naciones Unidas",
+      thesisLabel: "Tesis de grado",
+      thesisLink:
+        "https://www.dspace.uce.edu.ec/server/api/core/bitstreams/d02b7c8c-6d12-41a8-964c-c391561f249f/content",
     },
     {
       school: "Universidad Internacional de La Rioja",
