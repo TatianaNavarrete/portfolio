@@ -99,6 +99,53 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
                   </ul>
 
+                  <!-- TESIS -->
+                  {
+                    edu.degree === "Abogada de los Tribunales y Juzgados de la República" && (
+                      <div class="mt-6 p-4 rounded-lg bg-gray-50 border border-gray-200">
+
+                        <h4
+                          class="text-sm sm:text-base font-semibold mb-2"
+                          style={`color: ${siteConfig.accentColor}`}
+                        >
+                          Tesis de Grado
+                        </h4>
+
+                        <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                          <strong>
+                            “El derecho humano al agua de los habitantes de la parroquia Pomasqui del cantón Quito, provincia de Pichincha, en el marco de la Resolución 64/292 de las Naciones Unidas”
+                          </strong>
+                        </p>
+
+                        <a
+                          href="https://www.dspace.uce.edu.ec/server/api/core/bitstreams/d02b7c8c-6d12-41a8-964c-c391561f249f/content"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="inline-flex items-center gap-2 mt-3 text-sm font-medium hover:underline"
+                          style={`color: ${siteConfig.accentColor}`}
+                        >
+                          Ver tesis completa
+
+                          <svg
+                            class="w-4 h-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M7 17L17 7M17 7H7M17 7V17"
+                            />
+                          </svg>
+
+                        </a>
+
+                      </div>
+                    )
+                  }
+
                 </div>
 
               ))}
