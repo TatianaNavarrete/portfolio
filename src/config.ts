@@ -139,7 +139,7 @@ export const siteConfig = {
     {
       school: "Universidad Central del Ecuador",
       degree: "Abogada de los Tribunales y Juzgados de la República",
-      dateRange: "2021 - 2022",
+      dateRange: "2015 - 2022",
       achievements: [
         "Formación integral en derecho civil, laboral y administrativo.",
       ],
